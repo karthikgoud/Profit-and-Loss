@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+body {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    background-color: #1E2761;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    flex-direction: column;
+    height: 100vh;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+}
+
+
+#heading{
+    padding: 1rem;
+    font-size: 2.2rem;
+    font-size: 2.2rem;
+}
+
+main {
+    background-color: #408EC6 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+}
+
+main label{
+  font-size: 1.5rem;
+  padding: 0.4rem;
+
+}
+
+main input {
+    font-size: 1.3rem;
+    padding: 0.4rem;
+    margin-bottom: 1rem; ;
+    border-radius: 0.5rem;
+    border: none;
+
+}
+
+button{
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    padding: 0.4rem 1.5rem;
+    font-weight: 600;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: darkgray;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+
+#output{
+    display: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 2rem 0 0 0;
+}
+
+.gif-profit{
+    padding: 1rem;
+    display: none;
+    width: 30rem;
+    border: none;
+}
+
+
+
+.gif-loss{
+    padding: 1rem;
+    display: none;
+    width: 30rem;
+    border: none;
+}
+
+
