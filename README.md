@@ -1,6 +1,8 @@
 # Profit-and-Loss
 Mark 14 - Profit and Loss
 
+A Vanilla JS website that calculates stock profit and loss also determines percentage of profit and loss occured.
+
 #live link:
 https://profit-loss-calculator-2.netlify.app/
 
