@@ -18,9 +18,13 @@ function clickHandler() {
   const stockQuantity = Number(numberOfStocks.value);
 
   if (buyingPrice && sellingPrice && stockQuantity) {
-    calculateProfitAndLoss(buyingPrice, stockQuantity, sellingPrice);
+    if (buyingPrice >= 0 && sellingPrice >= 0 && stockQuantity >= 0) {
+      calculateProfitAndLoss(buyingPrice, stockQuantity, sellingPrice);
+    } else {
+      showOutput("Invalid input : Inputs cannot be of negative value");
+    }
   } else {
-    showOutput("Invalid : Enter all input fields");
+    showOutput("Invalid input : Enter all input fields.");
   }
 }
 
