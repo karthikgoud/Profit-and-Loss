@@ -21,10 +21,10 @@ function clickHandler() {
     if (buyingPrice > 0 && sellingPrice >= 0 && stockQuantity > 0) {
       calculateProfitAndLoss(buyingPrice, stockQuantity, sellingPrice);
     } else {
-      showOutput("Invalid input : Inputs cannot be of negative value.");
+      showOutput("❌ Invalid input : Inputs cannot be of negative value. ❌");
     }
   } else {
-    showOutput("Invalid input : Enter all input fields.");
+    showOutput("❌ Invalid input : Enter all input fields. ❌");
   }
 }
 
@@ -68,7 +68,7 @@ function lossGif() {
   gifProfit.style.display = "none";
   main.style.backgroundColor = "tomato";
   main.style.color = "black";
-  outputEl.style.color = "black";
+  outputEl.style.color = "white";
 }
 
 function profitGif() {
