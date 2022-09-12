@@ -91,3 +91,15 @@ button:hover{
 }
 
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--header-color);
+    gap: 1.5rem;
+    padding: 0.5rem;
+    }
+    
+    .social-icons{
+        width: 1.6rem;
+    }
