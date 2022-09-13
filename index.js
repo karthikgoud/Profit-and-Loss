@@ -14,15 +14,17 @@ checkBtn.addEventListener("click", clickHandler);
 //handler functions
 function clickHandler() {
   const buyingPrice = Number(buyInput.value);
-  const sellingPrice = Number(sellInput.value);
+  const sellingPrice = sellInput.value;
   const stockQuantity = Number(numberOfStocks.value);
 
   if (buyingPrice && sellingPrice && stockQuantity) {
     if (buyingPrice > 0 && sellingPrice >= 0 && stockQuantity > 0) {
-      calculateProfitAndLoss(buyingPrice, stockQuantity, sellingPrice);
+      calculateProfitAndLoss(buyingPrice, stockQuantity, Number(sellingPrice));
     } else {
       showOutput("❌ Invalid input : Inputs cannot be of negative value. ❌");
     }
+  } else if (sellingPrice === 0 || sellingPrice === true) {
+    calculateProfitAndLoss(buyingPrice, stockQuantity, Number(sellingPrice));
   } else {
     showOutput("❌ Invalid input : Enter all input fields. ❌");
   }
