@@ -96,8 +96,27 @@ footer {
     background-color: var(--header-color);
     gap: 1.5rem;
     padding: 0.5rem;
-    }
+}
     
     .social-icons{
         width: 1.6rem;
+}
+
+/* media queries */
+
+@media (max-width:425px){
+
+    .gif-profit{
+        padding: 1rem;
+        display: none;
+        width: 15rem;
+        border: none;
     }
+    
+    .gif-loss{
+        padding: 1rem;
+        display: none;
+        width: 15rem;
+        border: none;
+    }
+}
