@@ -17,7 +17,6 @@ h1,h2,h3,h4,h5,h6,p{
     margin: 0;
 }
 
-
 #heading{
     padding: 1rem;
     font-size: 2.2rem;
@@ -45,7 +44,6 @@ main input {
     margin-bottom: 1rem; ;
     border-radius: 0.5rem;
     border: none;
-
 }
 
 button{
@@ -62,7 +60,6 @@ button:hover{
     color: white;
     transition: 0.2s ease-in-out;
 }
-
 
 #output{
     display: none;
@@ -88,7 +85,6 @@ button:hover{
     border: none;
 }
 
-
 footer {
     display: flex;
     align-items: center;
@@ -98,7 +94,7 @@ footer {
     padding: 0.5rem;
 }
     
-    .social-icons{
+.social-icons{
         width: 1.6rem;
 }
 
@@ -109,14 +105,14 @@ footer {
     .gif-profit{
         padding: 1rem;
         display: none;
-        width: 15rem;
+        width: 20rem;
         border: none;
     }
     
     .gif-loss{
         padding: 1rem;
         display: none;
-        width: 15rem;
+        width: 20rem;
         border: none;
     }
 }
