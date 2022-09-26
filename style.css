@@ -61,7 +61,7 @@ button{
 
 button:hover{
     cursor: pointer;
-    background-color: darkgray;
+    background-color:var(--header-color);
     color: white;
     transition: 0.2s ease-in-out;
 }
